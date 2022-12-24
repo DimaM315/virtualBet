@@ -1,0 +1,75 @@
+.account_stage {
+	position: fixed;
+	top: 60px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .1);
+	background-color: rgba(15, 45, 55, .98);
+	color: white;
+	width: 75%;
+	height: 80%;
+	padding: 10px;
+	margin: 20px 12%;
+}
+
+.account_stage .data_stage {
+
+}
+.account_stage .account_stage_header .btn_history {
+	margin-left: 30px;
+	font-size: 18px;
+	background-color: black;
+}
+.account_stage .account_stage_header button:hover {
+	background-color: #00334D;
+}
+.account_stage .account_stage_header div {
+	background-color: black;
+	padding-top: 10px;
+}
+.account_stage_header .btn_params {
+	font-size: 14px;
+	background-color: black;
+	margin-left: 5px;
+}
+.account_stage_header{
+	font-size: 28px;
+	padding: 10px;
+}
+ .btn_header_active{
+	border-bottom: 1px solid yellow;
+}
+.data_stage {
+	margin: 10px 10px;
+}
+
+.user_bet_history {
+	margin-left: 10px;
+}
+.bet_history_header span {
+	border-radius: 0px;
+	background-color: black;
+}
+.user_bet_history table {
+	margin-top: 10px;
+}
+.user_bet_history th {
+	color: black;
+}
+
+.user_bet_history h1{
+	margin-top: 5px;
+}
+.bet_win_ceil {
+	background-color: rgba(0, 200, 0, .8);
+}
+.bet_lose_ceil {
+	background-color: rgba(200, 0, 0, .8);
+}
+
+
+
+
+.account_settings_stage {
+
+}

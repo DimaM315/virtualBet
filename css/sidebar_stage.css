@@ -1,0 +1,166 @@
+.sidebar_stage {
+	position: fixed;
+	top:100px;
+	right: 20px;
+	height: 400px;
+	width: 250px;
+	background: linear-gradient(45deg, rgba(92,87,85) 0%, rgba(51,48,47) 100%);
+	border-radius: 5px;
+}
+
+.hidden_item {
+	display: none;
+}
+
+.autorize_stage {
+	color: white;
+}
+
+
+
+#login_form {
+	margin: 60px auto;
+	width: 200px;
+	font-size: 20px;
+}
+
+#reg_form {
+	padding: 15px 25px;
+}
+
+.stage_form_wrapper form input {
+	height: 40px;
+	outline:none;
+}
+
+.stage_form_wrapper legend {
+	color: white;
+	padding-bottom: 3px;
+}
+
+.stage_form_wrapper form input[type="text"], input[type="password"] {
+	background-color: #3b4148;
+	border-radius: 0px 3px 3px 0px;
+	-moz-border-radius: 0px 3px 3px 0px;
+	-webkit-border-radius: 0px 3px 3px 0px;
+	color: #606468;
+	padding: 0 6px;
+	width: 180px;
+	margin-bottom: 10px;
+}
+
+.stage_form_wrapper form input:focus {
+	color:#fff;
+}
+
+#login_form > p {
+	text-align: center;
+}
+
+.stage_form_wrapper > p span {
+	padding-left: 5px;
+}
+
+#login_form a {
+	color: #eee;
+	text-decoration: none;
+}
+
+#login_form a:hover {
+	text-decoration: underline;
+}
+
+.form__error {
+  color: red;
+  text-align: left;
+  font-size: 12px;
+  display: block;
+  margin-top: 3px;
+  display: none;
+}
+
+
+
+input:valid:not(:placeholder-shown) {
+  border-color: green;
+}
+
+input:invalid:not(:placeholder-shown) {
+  border: 2px dashed red;
+}
+input:invalid:not(:placeholder-shown) + .form__error {
+  display: block;
+}
+
+
+
+.stage_btn{
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color: #0f2d37;
+	color: #eee;
+	font-weight: bold;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+	cursor:pointer;
+	width: 200px;
+	padding: 6px;
+}
+
+.stage_btn {
+	background-color: #0f2d37;
+}
+.stage_btn:hover {
+	background-color: #00334D;
+}
+
+
+/* make_bet_stage styles */
+.make_bet_stage .bet_events {
+	width: 200px;
+	margin: 15px 25px;
+	border: 1px solid black;
+	height: 300px;
+	overflow: auto;
+}
+
+.make_bet_stage .make_bet_form{
+	display: flex;
+	padding-top: 5px;
+}
+
+.make_bet_stage .make_bet_form .stage_btn{
+	height: 30px;
+	margin-right: 25px;
+}
+.make_bet_stage .make_bet_form input{
+	height: 25px;
+    width: 126px;
+    margin-left: 25px;
+    margin-right: 5px;
+}
+
+.make_bet_stage .bet_event {
+	padding: 5px;
+	background-color: #0f2d37;
+	margin-bottom: 5px;
+	color: white;
+}
+.make_bet_stage .bet_event img {
+	float: right;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 23px;
+}
+.make_bet_stage .bet_info_wrapper {
+	display: inline-block;
+}
+.make_bet_stage .bet_event img:hover {
+	background-color: rgba(240, 0, 0, .5);
+}
+
+.possible_award {
+	padding: 0px 0px 8px 25px;
+	color: white;
+}

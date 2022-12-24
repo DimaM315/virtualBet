@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Virtual bet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;900&display=swap">
+   
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sidebar_stage.css">
+    <link rel="stylesheet" href="css/match_stage.css">
+    <link rel="stylesheet" href="css/account_stage.css">
+
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="icons/icon_logo.png" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+    <script src="account_scripts.js"></script>
+
+</head>
+
+<body>
+
+<div>
+    <header class="ant-layout-header header_main">
+        <div class="ant-row ant-row-no-wrap header">
+            <div class="ant-row ant-row-middle header-inner">
+                <div class="logo-wrapper">
+                    <img src="icons/logo.png" alt="Virtual Bet logo" logowidth="132" logoheight="23" width="260" height="80" />
+                </div>
+            </div>
+
+            <div class="navbar">
+                <a href="#home">Рейтинг</a>
+                <a href="#news">Настройки аккаунта</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Матчи 
+                            <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                            <a href="#">Предстоящие</a>
+                            <a href="#">Live</a>
+                            <a href="#">Завершённые</a>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="menu">
+                <div class="btn account_btn">
+                    <span class="span_entry hidden_item">Вход</span>
+                    <span class="username">Dima Malyk</span>
+                    <img src="icons/account.png">
+                </div>
+                <div class="btn">
+                    <img src="icons/money.png">
+                    <span class="span_amount">1000.0$</span>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+	  
+<div class="stage"> 
+    <div class="stage_wrapper">
+        <div class="bet_card" match_id="18" match_title="Liverpool-Arsenal">
+            <div class="match_clubs_logo">
+                <img src="icons/clubs/liverpool.png" width="70px" height="70px">
+                <img src="icons/clubs/arsenal.png" width="70px" height="70px">
+            </div>
+            
+            <div class="match_main_kfs">
+                <div class="kf_bet_card P1"><p class="bet_type_p">П1</p><p class="kf_p">1.56</p></div> 
+                <div class="kf_bet_card X"><p class="bet_type_p">X</p><p class="kf_p">3.3</p></div> 
+                <div class="kf_bet_card P2"><p class="bet_type_p">П2</p><p class="kf_p">4.9</p></div>
+            </div>
+            <div class="match_main_time">21/3/22 18:00</div>
+
+            <button>Перейти в матч</button>
+        </div>
+
+        <div class="bet_card" match_id="31" match_title="Bayern-Bor.Dor">
+            <div class="match_clubs_logo">
+                <img src="icons/clubs/leicester.png" width="70px" height="70px">
+                <img src="icons/clubs/arsenal.png" width="70px" height="70px">
+            </div>
+            
+            <div class="match_main_kfs">
+                <div class="kf_bet_card P1"><p class="bet_type_p">П1</p><p class="kf_p">1.72</p></div> 
+                <div class="kf_bet_card X"><p class="bet_type_p">X</p><p class="kf_p">3.4</p></div> 
+                <div class="kf_bet_card P2"><p class="bet_type_p">П2</p><p class="kf_p">4.7</p></div>
+            </div>
+            <div class="match_main_time">20/4/22 16:30</div>
+
+            <button>Перейти в матч</button>
+        </div>
+
+        <div class="bet_card" match_id="33" match_title="CSKA-Zenit">
+            <div class="match_clubs_logo">
+                <img src="icons/clubs/Portugal.png" width="70px" height="70px">
+                <img src="icons/clubs/Morocco.png" width="70px" height="70px">
+            </div>
+            
+            <div class="match_main_kfs">
+                <div class="kf_bet_card P1"><p class="bet_type_p">П1</p><p class="kf_p">1.36</p></div> 
+                <div class="kf_bet_card X"><p class="bet_type_p">X</p><p class="kf_p">2.6</p></div> 
+                <div class="kf_bet_card P2"><p class="bet_type_p">П2</p><p class="kf_p">5.1</p></div>
+            </div>
+            <div class="match_main_time">27/3/22 19:30</div>
+
+            <button>Перейти в матч</button>
+        </div>
+        <div class="bet_card" match_id="18" match_title="Liverpool-Arsenal">
+            <div class="match_clubs_logo">
+                <img src="icons/clubs/brentford.png" width="70px" height="70px">
+                <img src="icons/clubs/mancity.png" width="70px" height="70px">
+            </div>
+            
+            <div class="match_main_kfs">
+                <div class="kf_bet_card P1"><p class="bet_type_p">П1</p><p class="kf_p">4.32</p></div> 
+                <div class="kf_bet_card X"><p class="bet_type_p">X</p><p class="kf_p">3.98</p></div> 
+                <div class="kf_bet_card P2"><p class="bet_type_p">П2</p><p class="kf_p">1.35</p></div>
+            </div>
+            <div class="match_main_time">21/3/22 17:00</div>
+
+            <button>Перейти в матч</button>
+        </div>
+
+        <div class="bet_card" match_id="31" match_title="Bayern-Bor.Dor">
+            <div class="match_clubs_logo">
+                <img src="icons/clubs/fulham.png" width="70px" height="70px">
+                <img src="icons/clubs/manunated.png" width="70px" height="70px">
+            </div>
+            
+            <div class="match_main_kfs">
+                <div class="kf_bet_card P1"><p class="bet_type_p">П1</p><p class="kf_p">2.86</p></div> 
+                <div class="kf_bet_card X"><p class="bet_type_p">X</p><p class="kf_p">2.87</p></div> 
+                <div class="kf_bet_card P2"><p class="bet_type_p">П2</p><p class="kf_p">2.85</p></div>
+            </div>
+            <div class="match_main_time">21/3/22 21:30</div>
+
+            <button>Перейти в матч</button>
+        </div>
+
+        <div class="bet_card" match_id="33" match_title="CSKA-Zenit">
+            <div class="match_clubs_logo">
+                <img src="icons/clubs/chelsea.png" width="70px" height="70px">
+                <img src="icons/clubs/newcastle.png" width="70px" height="70px">
+            </div>
+            
+            <div class="match_main_kfs">
+                <div class="kf_bet_card P1"><p class="bet_type_p">П1</p><p class="kf_p">1.66</p></div> 
+                <div class="kf_bet_card X"><p class="bet_type_p">X</p><p class="kf_p">3.55</p></div> 
+                <div class="kf_bet_card P2"><p class="bet_type_p">П2</p><p class="kf_p">4.86</p></div>
+            </div>
+            <div class="match_main_time">25/3/22 18:30</div>
+
+            <button>Перейти в матч</button>
+        </div>
+    </div>
+</div>
+
+<div class="sidebar_stage hidden_item">
+    <div class="autorize_stage hidden_item">
+         <div id="login_form" class="stage_form_wrapper">
+            <form action="javascript:void(0);" method="POST">
+                <legend>Авторизируйтесь</legend>
+                <input type="text" placeholder="Логин" required maxlength="35" minlength="5" pattern="\w{5,35}">
+                <span class="form__error">Это поле должно содержать от 5 до 35 символов</span>
+                <input type="password"  placeholder="Пароль" required maxlength="35" minlength="6" pattern="\S{5,35}">
+                <p><button type="submit" class="stage_btn">ВОЙТИ</button></p>
+            </form>
+            <p>Нет аккаунта? &nbsp;&nbsp;<a href="#" class="to_registration">Регистрация</a>
+        </div>
+    </div>
+
+    <div class="registration_stage hidden_item">
+        <div id="reg_form"  class="stage_form_wrapper">
+            <legend>Придумайте логин и пароль</legend>
+            <form action="javascript:void(0);" method="POST">
+                <input type="text" placeholder="Логин" required maxlength="35" minlength="5" pattern="\w{5,35}">
+                <span class="form__error">Это поле должно содержать от 5 до 35 символов</span>
+                <input type="password" placeholder="Пароль" required  maxlength="35" minlength="6" pattern="\S{5,35}"> 
+                <input type="password" placeholder="Пароль" required  maxlength="35" minlength="6" pattern="\S{5,35}">
+                <p><button type="submit" class="stage_btn">Регистрация</button></p>
+            </form>
+        </div>
+    </div>
+
+    <div class="make_bet_stage hidden_item">
+        <div class="bet_events">
+            
+        </div>
+        <span class="possible_award">Возможный выигрыш: <span class="possible_award_count">0</span></span>
+        <div class="make_bet_form">
+            <input type="text" class="bet_amount_inp" placeholder="Сумма ставки" pattern="\d{2,10}" required minlength="2" maxlength="10">
+            <span class="form__error">Используйте 0-9</span>
+            <button class="stage_btn">Make</button>
+        </div>
+        
+    </div>
+</div>
+
+
+<div class="future_match_stage match_stage">
+    <table class="first_day">
+        <tr>
+            <th class="match_day">Матчи 19/12/22 (сегодня)</th>
+            <th>П1</th>
+            <th>Х</th>
+            <th>П2</th>
+            <th>TБ2</th>
+            <th>TБ3</th>
+            <th>TM2</th>
+            <th>TM3</th>
+        </tr>
+    </table>
+
+    <table class="second_day">
+        <tr>
+            <th class="match_day">Матчи 20/12/22</th>
+            <th>П1</th>
+            <th>Х</th>
+            <th>П2</th>
+            <th>TБ2</th>
+            <th>TБ3</th>
+            <th>TM2</th>
+            <th>TM3</th>
+        </tr>
+        
+    </table>
+</div>
+
+
+<div class="completed_matches match_stage">
+    <table class="first_day">
+        <tr>
+            <th class="match_day">Матчи 19/12/22 (сегодня)</th>
+            <th>Реузльтат</th>
+            <th>Первый тайм</th>
+            <th>Второй тайм</th>
+        </tr>
+        
+    </table>
+
+    <table  class="second_day">
+        <tr>
+            <th class="match_day">Матчи 20/12/22</th>
+            <th>Реузльтат</th>
+            <th>Первый тайм</th>
+            <th>Второй тайм</th>
+        </tr>
+    </table>
+</div>
+
+
+<div class="account_stage hidden_item">
+    <div class="account_stage_header">
+            <div>
+            <button class="stage_btn btn_params">Параметры аккаунта</button>
+            <button class="stage_btn btn_history btn_header_active">История ставок</button>
+            </div>
+    </div>
+
+    <div class="data_stage hidden_item">
+        <div class="data_wrapper">
+            <!-- Данные об аккаунте -->
+        </div>
+        
+    </div>
+
+    <div class="user_bet_history">
+        <h1>Последние ставки пользователя</h1>
+        <div class="bet_history_header">
+            <span class="completed_bets_btn stage_btn btn_header_active">Расчитанные</span> 
+            <span class="uncompleted_bets_btn stage_btn">Не расчитанные</span>
+        </div>
+        <div class="history_uncompleted_bet hidden_item">
+            <table>
+                <tr>
+                    <th>Матч</th>
+                    <th>Дата</th>
+                    <th>Ставка</th>
+                    <th>КФ</th>
+                    <th>Сумма</th>
+                </tr>
+            </table>
+        </div>
+        <div class="history_completed_bet">
+            <table>
+                <tr>
+                    <th>Матч</th>
+                    <th>Дата</th>
+                    <th>Ставка</th>
+                    <th>КФ</th>
+                    <th>Сумма</th>
+                    <th>Результат</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="account_settings_stage hidden_item">
+        <h1>Account settings stage</h1>
+        <button class="change_pass_btn">Сменить пароль</button>
+        <button class="exit_btn">Выход</button>
+    </div>
+</div>
+
+
+<div class="footer">
+    <div class="contact_us">
+        <h3 class="contact_label">Наши контакты:</h3><br>
+        <span class="contact_email">dima2000malischew2@mail.ru</span>
+    </div>
+</div>
+
+
+</body>
+
+</html>

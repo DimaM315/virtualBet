@@ -1,0 +1,53 @@
+.match_stage {
+	width: 100%;
+	align-items: center;
+	display: flex;
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 20px 0px 40px 0px;
+	flex-direction: column;
+}
+
+
+table {
+  	width: 70%;
+	border: none;
+	margin-bottom: 20px;
+}
+th {
+  	font-weight: bold;
+	text-align: left;
+	border: none;
+	padding: 10px 15px;
+	background: #EDEDED;
+	font-size: 14px;
+	border-top: 1px solid #ddd;
+}
+td {
+  	text-align: left;
+	border: none;
+	padding: 10px 15px;
+	font-size: 14px;
+	vertical-align: top;
+	transition-duration: .2s;
+	cursor: pointer;
+}
+.match_stage tr:hover .match_stage td {
+  color: #6699ff;
+}
+.match_stage tr:nth-child(even) {
+	background: #F8F8F8;
+}
+.match_stage .kf_td:hover {
+	background-color: #00334D;
+	color: white;
+}
+.match_stage .match_title_td:hover {
+	text-decoration: underline;
+}
+
+.match_stage .match_time {
+	margin-left: 15px;
+    color: gray;
+}
